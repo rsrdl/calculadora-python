@@ -18,5 +18,5 @@ match operacao:
             resp = num1 / num2
     case _:
         resp = "Operação inválida."
-        
-print(resp)
+
+print(f'O resultado da operação é: {resp}')
